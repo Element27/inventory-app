@@ -1,0 +1,6 @@
+First step is the set up step for authentication using google login
+
+. Go to the google console (create a google console account or use an existing one)
+. get the secret id and key (client id and client key)
+. set up the integrate it into the existing code
+. test functionality
