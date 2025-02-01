@@ -6,11 +6,11 @@ import { Logout } from '../components/auth/AuthButton';
 
 export default async function HomePage() {
 
-  const session = await auth();
+  // const session = await auth();
 
-  if (!session) {
-    redirect('/');
-  }
+  // if (!session) {
+  //   redirect('/');
+  // }
 
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2'>

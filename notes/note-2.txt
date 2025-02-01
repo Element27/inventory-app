@@ -1,0 +1,9 @@
+Setting up vercel data base and prisma
+
+. on vercel hosting dashboard for the project, location the storage tab, create the storage and get the secret keys
+. add the to the environment variables
+. install prisma (@prisma/client), prisma blob (@vercel/blob) and vercel storage (vercel-storage)
+. initialise prisma (prisma init)
+. set up db models
+. push db models (npx prisma db push)
+. run db generation (npx prisma generate)
